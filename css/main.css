@@ -1,0 +1,104 @@
+html, body {
+	height: 100%;
+	background-color: #F7FFED;
+}
+
+* {
+	font-family: Baskerville; 
+}
+
+a {
+	text-decoration: none;
+	color: #CC8878;
+}
+a:hover {
+	color: #A2BBFF;
+}
+h2 {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+h3 {
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+
+#main-nav {	
+	text-align: right;
+	font-size: 20px;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	}
+
+#main-nav li {
+	padding-left: 5px;
+	display: inline;
+}
+aside {
+	border-right: solid 1px #B2A19D;
+	height: 1000px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+aside li {
+	font-size: 14px;
+	display: block;
+}
+#top-posts li, #top-posts, #search, #more-links, #more-links li, #social, #business, #business li {
+	padding: 5px;
+}
+input {
+	border: solid 1px gray;
+}
+#business {
+	padding-top: 20px;
+}
+
+
+.content_box {
+	width: 200px;
+	border: solid 1px #B2A19D;
+	padding: 15px;
+	margin-bottom: 20px; 
+}
+.content_box p {
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.content_box a {
+	color: #9AB277;
+}
+
+figcaption {
+	padding-top: 10px;
+	font-size: 14px;
+}
+.ads {
+	margin: auto;
+	width: 150px;
+	padding-bottom: 20px;
+}
+.content_box img {
+	width: 196px;
+	height: 156px;
+}
+
+#button {
+	height: 35px;
+	width: 65px;
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	color: gray;
+	text-align: center;
+	font-style: bold;
+}
+
+#button:hover {
+	color: black;
+	background-color: #FAFFD4;
+}
